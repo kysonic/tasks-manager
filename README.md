@@ -1,10 +1,10 @@
-# FC Bayern Munich React Website
+# Task manager
 
 It is example of react app built with [Create react app](https://github.com/facebook/create-react-app) 
 
 ## Demo 
 
-[Demo](https://kysonic.github.io/fcb-react/)
+[Demo](https://soooyc.neocities.org)
 
 ## Features 
 
