@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "message": {
+    "tasks": [
+      {
+        "id": 123,
+        "username": "John Doe",
+        "email": "johndoe@example.com",
+        "text": "This task is just great",
+        "status": 0
+      },
+      {
+        "id": 234,
+        "username": "John Doe",
+        "email": "johndoe@example.com",
+        "text": "Another great task",
+        "status": 10
+      },
+      {
+        "id": 456,
+        "username": "John Doe",
+        "email": "johndoe@example.com",
+        "text": "New great task",
+        "status": 0
+      }
+    ],
+    "total_task_count": 5
+  }
+}

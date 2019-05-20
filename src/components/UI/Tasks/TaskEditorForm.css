@@ -1,0 +1,69 @@
+.TaskEditorForm {
+    background: #c7ddf1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    max-width: calc(100vw - 100vw / 3)
+}
+
+.TaskEditorForm__error {
+    color: #88122f;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.TaskEditorForm > * {
+    margin: 10px 0;
+}
+
+.TaskEditorForm input, .TaskEditorForm textarea {
+    width: 100%;
+    height: 20px;
+    padding: 10px 5px;
+    border: 1px solid #70a6cb;
+}
+
+.TaskEditorForm .error {
+    border: 1px solid #cb2864;
+}
+
+.TaskEditorForm textarea {
+    height: 40px;
+}
+
+.TaskEditorForm input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.21);
+    border-bottom: 4px solid rgba(0,0,0,0.21);
+    border-radius: 4px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    background: #547496;
+    background: linear-gradient(#547496 0%, #4b6b96 100%);
+    text-transform: uppercase;
+}
+
+.TaskEditorForm input[disabled] {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.TaskEditorForm hgroup {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TaskEditorForm input[type="checkbox"] {
+    margin-left: 30px;
+}

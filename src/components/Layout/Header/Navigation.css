@@ -1,0 +1,27 @@
+.Navigation {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    list-style: none;
+    font-weight: 500;
+}
+
+.Navigation .item {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.Navigation .item:first-child {
+    margin-left: 0;
+}
+
+.Navigation .item a {
+    color: #fff;
+    text-decoration: none;
+    transition: .2s color ease-out;
+}
+.Navigation .item a:hover {
+    color: #f31f53;
+    transition: .2s color ease-in;
+}

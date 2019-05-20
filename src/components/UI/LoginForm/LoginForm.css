@@ -1,0 +1,69 @@
+.LoginForm {
+    width: 560px;
+    height: 650px;
+    max-height: calc(100vh - 200px);
+    background: #f0f1f2;
+    padding: 20px;
+    color: #0a3c64;
+}
+
+.LoginForm .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.LoginForm fieldset {
+    border: none;
+    padding: 0;
+}
+.LoginForm label {
+    display: block;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.LoginForm .error {
+    color: #961432;
+}
+
+.LoginForm input {
+    margin-top: 5px;
+    width: calc(100% - 20px);
+    height: 40px;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 0 10px;
+    outline: none;
+}
+.LoginForm input:focus {
+    border: 2px solid #0a3c64;
+}
+
+.LoginForm input[type="submit"] {
+    display: inline-block;
+    width: 160px;
+    margin-top: 20px;
+    background: #961432;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    float: right;
+    cursor: pointer;
+    height: 50px;
+}
+.LoginForm input[type="submit"]:hover {
+    background: #88122f;
+}
+
+.LoginForm input[type="submit"][disabled] {
+    opacity: 0.3;
+}
+
+.LoginForm__error {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+    color: #88122f;
+}

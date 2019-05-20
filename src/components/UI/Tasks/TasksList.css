@@ -1,0 +1,55 @@
+.TasksList {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+
+.TasksList__no-data {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.TasksList__table {
+    width: 100vw;
+}
+
+.TasksList__table thead tr, .TasksList__table tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.TasksList__table thead tr th {
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.4;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.TasksList__table tbody tr td {
+    color: #666666;
+    font-size: 15px;
+    line-height: 1.4;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+}
+
+.TasksList__add-button {
+    margin-left: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.21);
+    border-bottom: 4px solid rgba(0,0,0,0.21);
+    border-radius: 4px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    background: #547496;
+    background: linear-gradient(#547496 0%, #4b6b96 100%);
+    text-transform: uppercase;
+}
+

@@ -1,0 +1,9 @@
+{
+  "email": "admin@gmail.com",
+  "profile": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "age": 33
+  },
+  "isAdmin": true
+}

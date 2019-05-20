@@ -1,0 +1,22 @@
+.Popup {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(256,256,256,0.6);
+    top: 0;
+    left:0;
+    display: none;
+}
+.Popup.is-opened {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Popup__close {
+    position: absolute;
+    left: calc(100% - 30px);
+    font-size: 30px;
+    top: 0;
+    margin-top: 10px;
+    cursor: pointer;
+}

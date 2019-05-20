@@ -1,0 +1,32 @@
+.Login {
+    margin-right: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: .2s color ease-out;
+}
+
+
+.Login:hover {
+    color: #f31f53;
+    transition: .2s color ease-in;
+}
+
+.Login .icon, .Login .text {
+    display: inline-block;
+}
+
+.Login .text {
+    margin-left: 10px;
+}
+
+.Login .icon {
+    width: 19px;
+    height: 21px;
+}
+
+.Login .icon img {
+    max-width: 100%;
+    max-height: 100%;
+}
